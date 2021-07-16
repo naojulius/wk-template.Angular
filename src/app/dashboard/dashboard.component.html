@@ -1,0 +1,15 @@
+<div class="grid grid-cols-6">
+    <div class="hidden md:block lg:blockcol-span-1">
+        <app-side-bar></app-side-bar>
+    </div>
+    <div class="col-span-6 md:col-span-5 lg:col-span-5">
+        <div class="col-span-2">
+            <app-nav-bar></app-nav-bar>
+        </div>
+        <div class="col-span-2 mt-20">
+            <router-outlet></router-outlet>
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>
+
